@@ -1,9 +1,12 @@
 <?php
 
-use App\Http\Controllers\Api\v1\TourController;
-use App\Http\Controllers\Api\v1\TravelController;
+use App\Http\Controllers\Api\V1\TourController;
+use App\Http\Controllers\Api\V1\TravelController;
+use App\Http\Resources\TourResource;
+use App\Models\Travel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Validation\Rule;
 
 /*
 |--------------------------------------------------------------------------
